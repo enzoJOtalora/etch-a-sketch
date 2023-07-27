@@ -1,10 +1,13 @@
-body{
-    background-color: #555;
-}
-#sketch-wrapper{
-    display: grid;
-    width: 1000px;
+#sketch-wrapper {
+    display: inline-grid;
+    grid-gap: 1px;
+    border: 5px solid #5A236C;
+    border-radius: 2px;
+    box-shadow: 0 0 30px #392270;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
     height: 1000px;
+    width: 1000px;
 }
 div{
     border: 1px solid black;
