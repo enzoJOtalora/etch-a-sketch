@@ -10,4 +10,15 @@ function createGrid(){
       }
 }
 
+function colorGen(){
+  const gridItem = document.querySelectorAll('#sketch-wrapper > div');
+  gridItem.forEach((item) => {
+    item.addEventListener('mouseover', (e) => {
+      e.target.style.backgroundColor = '#FFFFFF';
+    });
+  }
+  )
+}
+
 createGrid()
+colorGen()
