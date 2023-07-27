@@ -9,6 +9,6 @@
     height: 1000px;
     width: 1000px;
 }
-div{
+#sketch-wrapper > div{
     border: 1px solid black;
 }
